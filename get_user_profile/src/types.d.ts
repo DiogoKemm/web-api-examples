@@ -16,6 +16,10 @@ interface UserProfile {
     uri: string;
 }
 
+interface Albums {
+    album_type: string;
+}
+
 interface Image {
     url: string;
     height: number;
